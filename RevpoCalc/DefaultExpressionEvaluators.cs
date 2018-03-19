@@ -5,6 +5,9 @@ using System.Linq;
 
 namespace RevpoCalc
 {
+    /// <summary>
+    /// Contains default implementations of expression evaluators
+    /// </summary>
     public static class Defaults
     {
         public static Dictionary<char, Expression.ExpressionEvaluator>
@@ -19,6 +22,7 @@ namespace RevpoCalc
                 { '/', (e, s) => s.HasValue ? (s.Value /
                     e.Operands.Aggregate((product, next) => product / next)) :
                     (e.Operands.Aggregate((product, next) => product / next)) },
+                // Add new operators here...
             };
     }
 }
