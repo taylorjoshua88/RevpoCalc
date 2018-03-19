@@ -16,9 +16,9 @@ Building and running
 With the .NET Core runtime / SDK installed, the dotnet
 CLI utility can be used to build and run RevpoCalc:
 
-> cd RevpoCalc
-> dotnet build
-> dotnet run
+    cd RevpoCalc
+    dotnet build
+    dotnet run
 
 Operation
 ---------
@@ -32,8 +32,8 @@ Sequences of expressions can be entered which work on each
 others' output. For instance, the following will produce the
 answer of 12:
 
-> 24 12 + 3 /
-> 12
+    Statement: 24 12 + 3 /
+       Answer: 12
 
 The calculator adds 12 to 24 (36) and then divides that answer
 by 3 (12). You will know that the calculator has operated
