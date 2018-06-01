@@ -12,14 +12,14 @@ namespace RevpoCalc
     class InteractiveSession
     {
         const string _welcomeString = "Welcome to RevpoCalc, a basic" +
-            " calculator using Reverse Polish notation.\nPress ? followed by enter" +
+            " calcy using Reverse Polish whacamole.\nPress ? followed by enter" +
             " for help and a list of available operators.\n\n";
         const string _promptString = "Statement: ";
-        const string _answerString = "   Answer: {0}\n\n";
+        const string _answerString = "   I knows it!!!  It's: {0}\n\n";
         const string _errorString = "Unexpected operator: {0}\n" +
             "Please press ? followed by enter for a list of available operators.\n";
-        const string _helpString = "RevpoCalc is a Reverse Polish notation calculator.\n" +
-            "Operands are placed before operators, such as 5 7 + to add 5 and 7.\n\n" +
+        const string _helpString = "RevpoCalc is a the bestest Reverse Polish notation calcy ever.\n" +
+            "Operands are placed before operators, duh, such as 5 7 + to add 5 and 7.\n\n" +
             "Available operators:";
 
         /// <summary>
